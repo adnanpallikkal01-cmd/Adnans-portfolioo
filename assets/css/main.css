@@ -51,6 +51,20 @@
   --surface-color: #292929f9;
   --contrast-color: #000000;
 }
+.custom-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .custom-img {
+    width: 550px;
+    height: 500px;
+    margin-right: 150px;
+  }
+}
 
 /* Smooth scroll */
 :root {
