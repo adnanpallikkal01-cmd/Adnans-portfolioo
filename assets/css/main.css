@@ -70,7 +70,9 @@
 :root {
   scroll-behavior: smooth;
 }
-
+.container{
+  margin-left:40px;
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
