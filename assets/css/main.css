@@ -65,7 +65,10 @@
     margin-right: 150px;
   }
 }
-
+.container img{
+ object-fit: cover;
+ width: 500px;
+}
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
