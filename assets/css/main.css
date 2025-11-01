@@ -58,10 +58,24 @@
   margin-right: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 888px) {
   .custom-img {
-    width: 550px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
+    margin-right: 150px;
+  }
+}
+@media (max-width: 668px) {
+  .custom-img {
+    width: 250px;
+    height: 200px;
+    margin-right: 150px;
+  }
+}
+@media (max-width: 468px) {
+  .custom-img {
+    width: 150px;
+    height: 150px;
     margin-right: 150px;
   }
 }
